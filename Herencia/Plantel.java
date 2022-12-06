@@ -53,7 +53,7 @@ public class Plantel {
         this.edad = edad;
     }
     
-    
+    //Sobrescribimos el método toString para mostrar los atributos de nuestro objeto. 
     @Override
     public String toString(){
         return "\nCuerpo técnico: \nCargo: " + cargo + "\n" + nombre + " " + apellido + "\nEdad: " + edad + " años";
