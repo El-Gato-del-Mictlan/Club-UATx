@@ -6,7 +6,7 @@ public class Jugador extends Plantel{ //Para indicar que es una clase hija usamo
     
     //Generamos el constructor para inicializar los atributos de nuestra clase.
     public Jugador(String nombre, String apellido, int edad, String posicion, int numero) {
-        super(nombre, apellido, edad);
+        super(nombre, apellido, edad); //Indicamos cuales son los atributos de nuestra clase padre queremos heredar
         this.posicion = posicion;
         this.numero = numero;
     }
